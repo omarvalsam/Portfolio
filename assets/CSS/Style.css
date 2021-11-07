@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(244, 208, 63, 1);
+    text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+header nav ul {
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.me img {
+    width: 30%;
+    border-radius: 45%;
+}
+
+.Project-photos-main{
+  width: 150%;
+  height: auto;
+
+}
+.Project-photos {
+  width: 50vmin;
+  height: 32vmin;
+    
+}
