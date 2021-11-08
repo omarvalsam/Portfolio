@@ -57,9 +57,7 @@ body article {
   margin: 16px;
   border: solid #bc8f8f 15px;
   position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
 }
 .Project-photos {
   position: relative;
@@ -76,13 +74,39 @@ body article {
 .otherwebsites a {
   border: #bc8f8f solid 15px;
 }
+
+.Project-photos{
+  border: #bc8f8f solid 15px;
+}
+
 .photos {
   position: relative;
 }
 .photo-text {
   position: absolute;
-  }
+  bottom: 32px;
+  right: 60%;
+  background-color: #bc8f8f;
+}
 
 footer h3 {
   border-top: #fff8e7 solid 5px;
 }
+
+@media screen and (max-width:890px) {
+  header {
+    display: block;
+  }
+  body article{
+    border-top: none;
+  }
+  .photos {
+    border-top: #fff8e7 solid 5px;
+
+  }
+  .photo-text{
+    position: inherit;
+    bottom: 0;
+    right: 0;
+    background-color: inherit;
+  }
