@@ -1,112 +1,44 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: black;
-    text-decoration: none;
-    list-style-type: none;
-  }
+/*This Section will be about the social media buttons. The source of this code is from https://www.kodingmadesimple.com/2015/02/Free-Black-and-White-Social-Media-Icons-CSS-HTML.html  */
+/* hollow sm icons */
 
-header {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  position: sticky;
-  top: 0px;
-  background-color: #fff8e7;
-  z-index: 100;
-}
-
-header nav {
-  margin: 15px;
-}
-header nav ul {
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    display: flex;
-}
-header nav ul li a{
-  margin: 15px;
-  padding-top: 1vw;
-}
-article me {
-  display: block;
-  margin: auto 15vw auto 0;
-}
-.me img {
-    width: 30%;
-    border-radius: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
-}
+/**/
 body {
-  background-color: #cb6d51;
-  text-align: center;
-  font-size: larger;
-}
-body article {
-  border-top: #fff8e7 solid 8px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.Project-photos-main{
-  width: 50%;
-  height: auto;
-  margin: 16px;
-  border: solid #bc8f8f 15px;
-  position: relative;
+.center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+.social {
+  padding-left: 0px;
+}
+a.fa {
+  color: rgba(167, 146, 129, 0.6);
+  list-style-type: none;
   display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  padding: 1%;
+  border: 1px solid rgba(167, 146, 129, 0.4);
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  transition: ease 0.3s;
 }
-.Project-photos {
-  position: relative;
-  width: 38vw;
-  height: auto;
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
+a.fa:hover {
+  color: rgba(167, 146, 129, 1);
+  border: 1px solid rgba(167, 146, 129, 1);
 }
-.otherwebsites {
-  display: flex;
-  justify-content: space-evenly;
+#about-me {
+  background-image: url(../images/background.jpeg);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-.otherwebsites a {
-  border: #bc8f8f solid 15px;
+#me {
+  height: 50%;
 }
-
-.Project-photos{
-  border: #bc8f8f solid 15px;
-}
-
-.photos {
-  position: relative;
-}
-.photo-text {
-  position: absolute;
-  bottom: 32px;
-  right: 60%;
-  background-color: #bc8f8f;
-}
-
-footer h3 {
-  border-top: #fff8e7 solid 5px;
-}
-
-@media screen and (max-width:890px) {
-  header {
-    display: block;
-  }
-  body article{
-    border-top: none;
-  }
-  .photos {
-    border-top: #fff8e7 solid 5px;
-
-  }
-  .photo-text{
-    position: inherit;
-    bottom: 0;
-    right: 0;
-    background-color: inherit;
-  }
