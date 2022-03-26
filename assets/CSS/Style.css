@@ -2,6 +2,13 @@
 /* hollow sm icons */
 
 /**/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -16,7 +23,7 @@ body {
 .social {
   padding-left: 0px;
 }
-a.fa {
+.socialmt {
   color: rgba(167, 146, 129, 0.6);
   list-style-type: none;
   display: inline-block;
@@ -30,15 +37,115 @@ a.fa {
   margin-bottom: 20px;
   transition: ease 0.3s;
 }
-a.fa:hover {
+.socialmt:hover {
   color: rgba(167, 146, 129, 1);
   border: 1px solid rgba(167, 146, 129, 1);
 }
-#about-me {
-  background-image: url(../images/background.jpeg);
-  background-repeat: no-repeat;
-  height: 100vh;
+
+#logo {
+  justify-content: center;
+  display: inline;
+  width: auto;
+  height: 59vh;
+  position: relative;
 }
-#me {
-  height: 50%;
+
+.lm:link,
+.lm:visited,
+.lm:active {
+  color: rgba(167, 146, 129, 0.6);
+}
+
+.lm:hover {
+  color: rgba(167, 146, 129, 1);
+}
+
+.about-me {
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 150vh;
+  position: inline;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  position: relative;
+}
+.image___overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  color: rgba(167, 146, 129, 1);
+}
+.image___overlay2 {
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50% !important;
+  height: 23% !important;
+  background: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  display: flex;
+  opacity: 0;
+  transition: opacity 0.25s;
+  color: rgba(167, 146, 129, 1);
+}
+
+.image___overlay--blur {
+  backdrop-filter: blur(8px);
+}
+
+.image___overlay,
+.image___overlay2 > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image___overlay:hover,
+.image___overlay2:hover {
+  opacity: 1;
+}
+.image___overlay:hover,
+.image___overlay2:hover > * {
+  transform: translateY(0);
+}
+
+.image___title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.image___subtitle {
+  font-size: 1.65em;
+  margin-top: 0.35em;
+  font-weight: bold;
+  justify-content: center;
+}
+.image___description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  justify-content: center;
+  text-align: center;
+}
+.project-description {
+  text-decoration: none;
+  line-height: 340px;
+  text-align: center;
+  color: rgba(167, 146, 129, 1);
+}
+.project-description:hover {
+  color: rgba(167, 146, 129, 1);
+}
+.row {
+  justify-content: space-around;
 }
