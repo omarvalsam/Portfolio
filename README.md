@@ -1,5 +1,5 @@
 # Portfolio
-Module 2 challenge
+
 
 This webpage was created with hope that some employeer will see this and hire me! jk.
 
