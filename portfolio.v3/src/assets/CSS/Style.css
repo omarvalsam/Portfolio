@@ -81,13 +81,6 @@ li {
 .title-name:hover {
   color: rgba(167, 146, 129, 1);
 }
-#logo {
-  justify-content: center;
-  display: inline;
-  width: auto;
-  height: 59vh;
-  position: relative;
-}
 
 /* .lm:link,
 .lm:visited,
@@ -213,4 +206,20 @@ footer {
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+}
+.logo {
+  height: 59vh;
+}
+.resume {
+  text-align: center;
+  color: rgba(167, 146, 129, 1);
+}
+.resume a {
+  color: rgba(167, 146, 129, 1);
+  text-decoration: none !important;
+}
+.resume a:hover {
+  color: rgba(167, 146, 129, 1);
+  text-decoration: none !important;
+  cursor: pointer;
 }
