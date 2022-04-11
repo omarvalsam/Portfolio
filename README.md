@@ -1,4 +1,8 @@
 # Portfolio
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9dc4d182b1c705b6cfb131855220069fd898c700
 
 ### a portfolio created with React
 
