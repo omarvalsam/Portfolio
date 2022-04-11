@@ -1,10 +1,10 @@
 # Portfolio
-<<<<<<< HEAD
-=======
 
->>>>>>> 9dc4d182b1c705b6cfb131855220069fd898c700
+<img src="./readMePic.png">
 
-### a portfolio created with React
+## Description
+
+A portfolio that was recently updated from an older version which only used HTML, CSS.
 
 ## Purpose
 
@@ -19,6 +19,8 @@ This React app application was created with the inention of showing our progress
 https://omarvalsam.github.io/Portfolio/
 
 -Omar
+
+# Instructions for react app start up
 
 # Getting Started with Create React App
 
