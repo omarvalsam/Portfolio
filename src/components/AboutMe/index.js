@@ -28,10 +28,11 @@ const AboutMe = () => {
             After finishing the Bootcamp, I'm planning on going back to school
             to get a degree in the tech field.
             <br />
-            Some of the coding packages I currently possess experience within
-            both front-end, and back-end development are:
+            Currently I have experience with these coding packages:
             <br />
             SQL/Sequelize, Mongoose/MongoDb, React, Express.
+            <br />I am however always open to learning more and expanding my
+            knowledge!
           </div>
           <h2 className="image___subtitle">random facts about me</h2>
           <div className="image___description">
