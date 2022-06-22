@@ -11,6 +11,12 @@ import deepthoughtsImage from "../../assets/images/DeepThoughts.png";
 const Projects = () => {
   return (
     <body class="bg-black">
+      <h2 className="hover-instructions">
+        Hover over any of these photos for more information on them and also
+        click on the photo if youd like to visit that specific project page.{" "}
+        <br />
+        <i className="arrow down"></i>
+      </h2>
       <section className="container image">
         <div className="row">
           <a
