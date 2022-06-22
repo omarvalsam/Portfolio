@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.15c06103.css",
-    "main.js": "/Portfolio/static/js/main.97bf3fe1.js",
-    "static/media/photoport.png": "/Portfolio/static/media/photoport.39967e32362ac86e151c.png",
-    "static/media/Book-search-engine.png": "/Portfolio/static/media/Book-search-engine.64215196082ef89a7659.png",
-    "static/media/pizzahunt.png": "/Portfolio/static/media/pizzahunt.cbbbc1de45f88b4626e4.png",
-    "static/media/hikeMe.jpeg": "/Portfolio/static/media/hikeMe.d725e22ba8ddd3f2d991.jpeg",
-    "static/media/DeepThoughts.png": "/Portfolio/static/media/DeepThoughts.66e9bc85a55b52fcc67e.png",
-    "static/media/updatedpic.png": "/Portfolio/static/media/updatedpic.a0b074f76af94650c935.png",
-    "static/media/udIT.jpeg": "/Portfolio/static/media/udIT.03991802917065950a25.jpeg",
-    "static/media/ReadMe-gen.jpeg": "/Portfolio/static/media/ReadMe-gen.b603fc658de892cdb7e9.jpeg",
-    "static/media/apexProject.jpeg": "/Portfolio/static/media/apexProject.0cd07959631ab5ca3480.jpeg",
-    "static/media/Just-tech-news.jpeg": "/Portfolio/static/media/Just-tech-news.22178771650a22fbb5ed.jpeg",
-    "index.html": "/Portfolio/index.html",
-    "main.15c06103.css.map": "/Portfolio/static/css/main.15c06103.css.map",
-    "main.97bf3fe1.js.map": "/Portfolio/static/js/main.97bf3fe1.js.map"
+    "main.css": "/static/css/main.15c06103.css",
+    "main.js": "/static/js/main.96ede9bf.js",
+    "static/media/photoport.png": "/static/media/photoport.39967e32362ac86e151c.png",
+    "static/media/Book-search-engine.png": "/static/media/Book-search-engine.64215196082ef89a7659.png",
+    "static/media/pizzahunt.png": "/static/media/pizzahunt.cbbbc1de45f88b4626e4.png",
+    "static/media/hikeMe.jpeg": "/static/media/hikeMe.d725e22ba8ddd3f2d991.jpeg",
+    "static/media/DeepThoughts.png": "/static/media/DeepThoughts.66e9bc85a55b52fcc67e.png",
+    "static/media/updatedpic.png": "/static/media/updatedpic.a0b074f76af94650c935.png",
+    "static/media/udIT.jpeg": "/static/media/udIT.03991802917065950a25.jpeg",
+    "static/media/ReadMe-gen.jpeg": "/static/media/ReadMe-gen.b603fc658de892cdb7e9.jpeg",
+    "static/media/apexProject.jpeg": "/static/media/apexProject.0cd07959631ab5ca3480.jpeg",
+    "static/media/Just-tech-news.jpeg": "/static/media/Just-tech-news.22178771650a22fbb5ed.jpeg",
+    "index.html": "/index.html",
+    "main.15c06103.css.map": "/static/css/main.15c06103.css.map",
+    "main.96ede9bf.js.map": "/static/js/main.96ede9bf.js.map"
   },
   "entrypoints": [
     "static/css/main.15c06103.css",
-    "static/js/main.97bf3fe1.js"
+    "static/js/main.96ede9bf.js"
   ]
 }
