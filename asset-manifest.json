@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.15c06103.css",
-    "main.js": "/Portfolio/static/js/main.efaae424.js",
+    "main.js": "/Portfolio/static/js/main.65647a05.js",
     "static/media/photoport.png": "/Portfolio/static/media/photoport.39967e32362ac86e151c.png",
     "static/media/Book-search-engine.png": "/Portfolio/static/media/Book-search-engine.64215196082ef89a7659.png",
     "static/media/pizzahunt.png": "/Portfolio/static/media/pizzahunt.cbbbc1de45f88b4626e4.png",
@@ -14,10 +14,10 @@
     "static/media/Just-tech-news.jpeg": "/Portfolio/static/media/Just-tech-news.22178771650a22fbb5ed.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.15c06103.css.map": "/Portfolio/static/css/main.15c06103.css.map",
-    "main.efaae424.js.map": "/Portfolio/static/js/main.efaae424.js.map"
+    "main.65647a05.js.map": "/Portfolio/static/js/main.65647a05.js.map"
   },
   "entrypoints": [
     "static/css/main.15c06103.css",
-    "static/js/main.efaae424.js"
+    "static/js/main.65647a05.js"
   ]
 }
